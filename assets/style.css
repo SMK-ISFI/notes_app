@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input {
+  width: 100%;  
+}
+
+small {
+    color: red;
+}
