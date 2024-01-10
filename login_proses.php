@@ -16,11 +16,11 @@ if (isset($_POST['login'])) {
       $_SESSION['id'] = $item['id'];
       $_SESSION['fullname'] = $item['fullname'];
 
-      header('location: home.php');
+      header('location: main.php');
     } else {
-      echo "<script>alert('Login gagal');window.location('index.php')</script>";
+      echo "<script>alert('Login gagal');window.location='index.php'</script>";
     }
   } else {
-    echo "<script>alert('Login gagal');window.location('index.php')</script>";
+    echo "<script>alert('Login gagal');window.location='index.php'</script>";
   }
 }
